@@ -1,0 +1,11 @@
+{
+    "editor.snippetSuggestions": "top",
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "commonjs",
+      "allowSyntheticDefaultImports": true
+    },
+    "exclude": [
+      "node_modules"
+    ]
+}
