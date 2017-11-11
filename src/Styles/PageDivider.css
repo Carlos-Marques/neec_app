@@ -1,0 +1,17 @@
+.section {
+    border-top: solid #009DE0;
+    border-bottom: solid #009DE0;
+    margin-top: 25px;
+    margin-bottom: 60px;
+    margin-left: 40vw;
+    margin-right: 40vw;
+}
+
+.text {
+    margin-top: 0;
+    line-height: 7vh;
+    height: 5vh;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}

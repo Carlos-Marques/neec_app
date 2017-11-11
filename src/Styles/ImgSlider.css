@@ -1,0 +1,13 @@
+.ImgSlider {
+}
+
+.ImgSlide {
+  width: 100vw;
+  max-height: calc(100vh - 70.5px);
+  min-height: calc(100vh - 70.5px);
+  filter: brightness(40%);
+}
+
+.subtext {
+  height: 50vh;
+}

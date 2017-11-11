@@ -1,0 +1,29 @@
+.footerdiv {
+    background-color: rgb(235, 235, 235);
+    color: black;
+    text-align: left;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.contactinfo {
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+
+.material-icons {
+    vertical-align: middle;
+}
+
+.fa {
+    font-size:24px;
+    margin-right: 15px;
+}
+
+.footertittles{
+}

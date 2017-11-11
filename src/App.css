@@ -18,7 +18,52 @@
   font-size: large;
 }
 
+.grid {
+  display: flex;
+}
+
+.grid-cell{
+  flex: 1;
+}
+
+.Carousel {
+  width: "1000px";
+  height: "1000px";
+}
+
+.navbar {
+  border: none;
+  box-shadow: none;
+}
+
+.containerer {
+  height: calc(100vh - 65px);
+  background-image:  url("banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  filter: brightness(40%);
+}
+
+.page-header {
+  margin-left: 1vw;
+  text-align: center;
+  background-color: rgb(38, 38, 38);
+  border-color: blue;
+  height: 100px;
+}
+
+.footer {
+  background-color: rgb(38, 38, 38);
+  color: white;
+  height: 5vh;
+  text-align: center;
+  vertical-align: center;
+  line-height: 5vh;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+

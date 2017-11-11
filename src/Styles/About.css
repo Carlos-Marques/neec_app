@@ -1,0 +1,20 @@
+.NEECStyle {
+    width: 100vw;
+    height: 60vh;
+    background-image: url("../Images/NEECpeople.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+    filter: brightness(40%);
+}
+
+.User {
+    height: 100px;
+    width: 100px;
+    margin: 20;
+};
+
+.userimage {
+    width: 100px;
+    height: 100px;
+}
