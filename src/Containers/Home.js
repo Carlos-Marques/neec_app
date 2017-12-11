@@ -3,6 +3,7 @@ import ImgSlider from '../Components/ImgSlider'
 import PageDivider from '../Components/PageDivider'
 import CardGrid from './Home/CardGrid'
 import ObjectGrid from './Home/ObjectGrid'
+import { Link } from 'react-router-dom'
 import "../Styles/Home.css"
 
 class Home extends Component {
@@ -15,11 +16,11 @@ class Home extends Component {
             <CardGrid />
           </div>
           <div className='gray'>
-          <PageDivider text="WORKSHOPS" />
+          <Link to='/workshops'><PageDivider text="WORKSHOPS" /></Link>
           <ObjectGrid type="workshops"/>
           </div>
           <div>
-          <PageDivider text="EVENTS" />
+          <Link to='/workshops'><PageDivider text="EVENTS" /></Link>
           <ObjectGrid type="events"/>
           </div>
       </div>

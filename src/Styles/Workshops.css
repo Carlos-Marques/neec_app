@@ -1,0 +1,13 @@
+.Workshoptop {
+    width: 100vw;
+    height: 60vh;
+    background-image: url("../Images/neecduino2013.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10% 10%;
+    filter: brightness(40%);
+}
+
+.card {
+    padding-right: 10px;
+}

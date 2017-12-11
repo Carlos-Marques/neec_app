@@ -9,12 +9,24 @@
 }
 
 .User {
-    height: 100px;
-    width: 100px;
-    margin: 20;
+    height: 150px;
+    width: 150px;
+    background-image: url("../Images/Carlos.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-left: auto;
+    margin-right: auto;
 };
 
-.userimage {
-    width: 100px;
-    height: 100px;
+.grid {
+}
+
+.userbox{
+    text-align: center;
+    padding-bottom: 10px
+}
+
+.userlinks{
+    padding-left: 10px
 }

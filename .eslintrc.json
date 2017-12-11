@@ -16,7 +16,7 @@
         "no-this-before-super": "warn",
         "no-undef": "warn",
         "no-unreachable": "warn",
-        "no-unused-vars": "off",
+        "no-unused-vars": "warn",
         "constructor-super": "warn",
         "valid-typeof": "warn"
     }

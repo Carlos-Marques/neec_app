@@ -6,12 +6,12 @@ class NewsCard extends Component {
     return (
       <Card>
         <CardMedia
-          overlay={<CardTitle titleColor="#000000" title="Matlab" />}
+          overlay={<CardTitle titleColor="#000000" title={this.props.tittle} />}
         >
           <img src={this.props.imgsrc} alt="" />
         </CardMedia>
         <CardText>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          {this.props.desc}
         </CardText>
       </Card>
     );
