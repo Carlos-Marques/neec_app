@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "eslint": "^4.6.1",
+    "flexbox-react": "^4.4.0",
     "history": "^4.7.2",
     "material-design-icons": "^3.0.1",
     "material-ui": "^0.19.4",
