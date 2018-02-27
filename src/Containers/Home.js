@@ -11,7 +11,7 @@ import git from '../Images/git.png'
 import pov from '../Images/pov.jpg'
 import sail from '../Images/sail.png'
 import python from '../Images/python.png'
-import neecduino from '../Images/neecduino2013.png'
+import neecduino from '../Images/neecduino2013.jpg'
 import NewsCard from "../Components/NewsCard"
 
 class Home extends Component {

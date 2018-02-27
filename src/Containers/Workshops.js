@@ -10,7 +10,10 @@ import git from '../Images/git.png'
 import pov from '../Images/pov.jpg'
 import sail from '../Images/sail.png'
 import python from '../Images/python.png'
-import neecduino from '../Images/neecduino2013.png'
+import neecduino from '../Images/neecduino2013.jpg'
+import tvbg from '../Images/tvbg.jpg'
+import drawdio from '../Images/drawdio.jpg'
+import pspice from '../Images/pspice.png'
 
 class Workshops extends Component {
   render() {
@@ -86,7 +89,7 @@ class Workshops extends Component {
             tittle: "PSpice",
             desc: "",
             text: "Sempre quiseste construir o teu próprio site, mas tens tanta informação à tua disposição que nem sabes por onde começar? Queres ter a tua página pessoal na Internet mas não sabes como iniciar esse projeto? O Workshop de Web Development do NEEC é a tua oportunidade para dar a volta à situação! Vem aprender tudo o que precisas para criar a tua página pessoal abordando os temas HTML, CSS, JavaScript e jQuery.",
-            img: matlab,
+            img: pspice,
             links: {
                 facebook: "",
                 eventbrite: ""
@@ -100,7 +103,7 @@ class Workshops extends Component {
             tittle: "TV-Bgone",
             desc: "",
             text: "Se achas que está na altura de tirar o pó ao teu Arduino e se queres dar outra utilidade que não a de pisa papéis, este é o workshop ideal para ti! Vais poder desenvolver um projeto controlado pelo teu arduino e no final ainda ficas com os componentes e a breadboard que utilizas. Download do Software: https://www.arduino.cc/en/Main/Software",
-            img: matlab,
+            img: tvbg,
             links: {
                 facebook: "",
                 eventbrite: ""
@@ -122,7 +125,7 @@ class Workshops extends Component {
             tittle: "POV",
             desc: "",
             text: "Estás farto de projetos desorganizados? Queres programar e poder ter todos os teus ficheiros seguros e organizados num só sítio online? Queres entrar no universo da programação open source? O Git é um sistema de controlo de versões, com o qual podes desenvolver e armazenar projetos para os quais qualquer pessoa pode contribuir, não havendo asneira ao mudar a mesma parte de código. Se gostavas de aprender tudo sobre esta ferramenta importantíssima para o teu futuro na área da programação, não percas o workshop de Git trazido pelo NEEC! Não percas esta oportunidade de começar a programar como gente grande!",
-            img: matlab,
+            img: pov,
             links: {
                 facebook: "",
                 eventbrite: ""
@@ -133,7 +136,7 @@ class Workshops extends Component {
             tittle: "Drawdio",
             desc: "",
             text: "Ouves falar muitas vezes de Python e só te faz lembrar Monty Python? Estás a pensar em aprender uma nova linguagem de programação? Se gostavas de aprender o essencial sobre esta ferramenta importantíssima para o teu futuro na área da programação, não percas o workshop de Python trazido pelo NEEC! Neste vais aprender os básicos desta linguagem de programação e fazer um pequeno projeto introdutório.",
-            img: matlab,
+            img: drawdio,
             links: {
                 facebook: "",
                 eventbrite: ""

@@ -7,6 +7,7 @@ import PageDivider from "../Components/PageDivider"
 import Slider from 'react-slick'
 import matlab from "../Images/matlab.jpg"
 import openday from '../Images/openday.png'
+import fast_meeting from '../Images/fast_meeting.png'
 
 class Events extends Component {
   render() {
@@ -38,7 +39,7 @@ class Events extends Component {
             tittle: "Fast Meeting",
             desc: "",
             text: "Estás farto de projetos desorganizados? Queres programar e poder ter todos os teus ficheiros seguros e organizados num só sítio online? Queres entrar no universo da programação open source? O Git é um sistema de controlo de versões, com o qual podes desenvolver e armazenar projetos para os quais qualquer pessoa pode contribuir, não havendo asneira ao mudar a mesma parte de código. Se gostavas de aprender tudo sobre esta ferramenta importantíssima para o teu futuro na área da programação, não percas o workshop de Git trazido pelo NEEC! Não percas esta oportunidade de começar a programar como gente grande!",
-            img: matlab,
+            img: fast_meeting,
             links: {
                 facebook: "",
                 eventbrite: ""
