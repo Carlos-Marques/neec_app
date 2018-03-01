@@ -11,7 +11,6 @@
 .User {
     height: 150px;
     width: 150px;
-    background-image: url("../Images/Carlos.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -30,3 +29,8 @@
 .userlinks{
     padding-left: 10px
 }
+
+.col {
+    flex-basis: 20%;
+    padding-bottom: 100px;
+  }

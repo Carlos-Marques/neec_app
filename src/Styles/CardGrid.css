@@ -1,5 +1,8 @@
 .gridbox {
     height: 30vh;
     border-right: solid #009DE0;
-    margin-bottom: 50px;
+}
+
+.col {
+    margin-bottom: 20px;
 }

@@ -4,8 +4,8 @@ import '../Styles/About.css'
 import PageDivider from '../Components/PageDivider'
 import AboutGrid from '../Containers/About/AboutGrid'
 import Paper from 'material-ui/Paper';
-import Carlos from "../Images/Carlos.jpg";
 import { Grid, Row, Col } from 'react-flexbox-grid';
+import neecDB from '../DB/neecDB.js'
 
 class About extends Component {
   render() {
@@ -19,67 +19,29 @@ class About extends Component {
           <div className='grid'>
             <Grid fluid>
                   <Row>
-                      <Col xs >
-                        <div className='userbox'>
-                          <Paper className="User" zDepth={2} circle={true}></Paper>
-                          <h4>Carlos Silva</h4>
-                          <h5>Presidente</h5>
-                          <div className='userlinks'>
-                            <a href="https://facebook.neecist.org"><i className="fa fa-facebook" /></a>
-                            <a href="https://twitter.neecist.org"><i className="fa fa-twitter" /></a>
-                            <a href="https://linkedin.neecist.org"><i className="fa fa-linkedin" /></a>
-                            <a href="https://youtube.neecist.org"><i className="fa fa-youtube" /></a>
-                          </div>
-                        </div>
-                      </Col>
-                      <Col xs >
-                      <div className='userbox'>
-                        <Paper className="User" zDepth={2} circle={true}></Paper>
-                        <h4>Carlos Silva</h4>
-                        <div className='userlinks'>
-                          <a href="https://facebook.neecist.org"><i className="fa fa-facebook" /></a>
-                          <a href="https://twitter.neecist.org"><i className="fa fa-twitter" /></a>
-                          <a href="https://linkedin.neecist.org"><i className="fa fa-linkedin" /></a>
-                          <a href="https://youtube.neecist.org"><i className="fa fa-youtube" /></a>
-                        </div>
-                      </div>
-                    </Col>
-                    <Col xs >
-                        <div className='userbox'>
-                          <Paper className="User" zDepth={2} circle={true}></Paper>
-                          <h4>Carlos Silva</h4>
-                          <div className='userlinks'>
-                            <a href="https://facebook.neecist.org"><i className="fa fa-facebook" /></a>
-                            <a href="https://twitter.neecist.org"><i className="fa fa-twitter" /></a>
-                            <a href="https://linkedin.neecist.org"><i className="fa fa-linkedin" /></a>
-                            <a href="https://youtube.neecist.org"><i className="fa fa-youtube" /></a>
-                          </div>
-                        </div>
-                      </Col>
-                      <Col xs >
-                        <div className='userbox'>
-                          <Paper className="User" zDepth={2} circle={true}></Paper>
-                          <h4>Carlos Silva</h4>
-                          <div className='userlinks'>
-                            <a href="https://facebook.neecist.org"><i className="fa fa-facebook" /></a>
-                            <a href="https://twitter.neecist.org"><i className="fa fa-twitter" /></a>
-                            <a href="https://linkedin.neecist.org"><i className="fa fa-linkedin" /></a>
-                            <a href="https://youtube.neecist.org"><i className="fa fa-youtube" /></a>
-                          </div>
-                        </div>
-                      </Col>
-                      <Col xs >
-                        <div className='userbox'>
-                          <Paper className="User" zDepth={2} circle={true}></Paper>
-                          <h4>Carlos Silva</h4>
-                          <div className='userlinks'>
-                            <a href="https://facebook.neecist.org"><i className="fa fa-facebook" /></a>
-                            <a href="https://twitter.neecist.org"><i className="fa fa-twitter" /></a>
-                            <a href="https://linkedin.neecist.org"><i className="fa fa-linkedin" /></a>
-                            <a href="https://youtube.neecist.org"><i className="fa fa-youtube" /></a>
-                          </div>
-                        </div>
-                      </Col>
+                      {neecDB.neecos.map(
+                        function(neecos) {
+                          var sectionStyle = {
+                            backgroundImage: "url(" + neecos.img + ")"
+                          };
+
+                          return (
+                            <Col className="col" xs >
+                              <div className='userbox'>
+                                <Paper style={sectionStyle} className='User' zDepth={2} circle={true}></Paper>
+                                <h4>{neecos.name}</h4>
+                                <h5>{neecos.tittle}</h5>
+                                <div className='userlinks'>
+                                  <a target="_blank" href={neecos.links.facebook}><i className="fa fa-facebook" /></a>
+                                  <a target="_blank" href={neecos.links.linkedin}><i className="fa fa-linkedin" /></a>
+                                  <a target="_blank" href={neecos.links.github}><i className="fa fa-github" /></a>
+                                  <a target="_blank" href={neecos.links.personal}><i className="fa fa-address-card" /></a>
+                                  <a href= {"mailto:" + neecos.links.email}><i className="fa fa-envelope" /></a>
+                                </div>
+                              </div>
+                            </Col>)
+                        }
+                      )}
                   </Row>
             </Grid>
           </div>
