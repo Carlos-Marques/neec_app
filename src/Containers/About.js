@@ -26,7 +26,7 @@ class About extends Component {
                           };
 
                           return (
-                            <Col className="col" xs >
+                            <Col className="cols" xs >
                               <div className='userbox'>
                                 <Paper style={sectionStyle} className='User' zDepth={2} circle={true}></Paper>
                                 <h4>{neecos.name}</h4>

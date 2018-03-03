@@ -21,7 +21,7 @@ class AppRouter extends Component {
               <ScrollToTopRoute path='/workshops' component={Workshops}/>
               <ScrollToTopRoute path='/events' component={Events}/>
               <ScrollToTopRoute path='/contacts' component={Contacts}/>
-              <ScrollToTopRoute path='/article' component={Article}/>
+              <ScrollToTopRoute path='/article/:typeID/:articleID' component={Article}/>
               <ScrollToTopRoute path='/' component={Footer} />
           </div>
       </BrowserRouter>

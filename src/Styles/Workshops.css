@@ -10,5 +10,14 @@
 
 .card {
     padding-right: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+}
+
+.col {
+    flex-basis: 33%;
+    padding-bottom: 0px;
+}
+
+.CodingGrid {
+    padding-left: 10px;
 }

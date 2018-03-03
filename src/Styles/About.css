@@ -30,7 +30,7 @@
     padding-left: 10px
 }
 
-.col {
+.cols {
     flex-basis: 20%;
     padding-bottom: 100px;
   }
