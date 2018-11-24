@@ -18,6 +18,8 @@ class AppRouter extends Component {
               <Route path='/' component={Header} />
               <Route exact path='/' component={Home} />
               <ScrollToTopRoute path='/about' component={About} />
+              <ScrollToTopRoute path='/workshops' component={Workshops}/>
+              <ScrollToTopRoute path='/events' component={Events}/>
               <ScrollToTopRoute path='/contacts' component={Contacts}/>
               <ScrollToTopRoute path='/article/:typeID/:articleID' component={Article}/>
               <ScrollToTopRoute path='/' component={Footer} />
