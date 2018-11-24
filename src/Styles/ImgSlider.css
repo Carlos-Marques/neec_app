@@ -2,7 +2,7 @@
 }
 
 .ImgSlide {
-  width: 100vw;
+  width: auto;
   max-height: calc(100vh - 70.5px);
   min-height: calc(100vh - 70.5px);
   filter: brightness(40%);
